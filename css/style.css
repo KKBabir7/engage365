@@ -888,6 +888,22 @@ h1,h2,h3,h4,h5,h6{
 
 
 @media only screen and (max-width: 576px) {
+    .subscription .thumbnail h3{
+        font-size: 40px;
+    line-height: 50px;
+    }
+    .subscription .thumbnail p {
+        font-size: 20px;}
+        .subscription .thumbnail .media ,.engagevideo .sub-thum-section .thumbnail p{
+       font-size: 18px};
+       .bill-subscription .sub-thum .thumbnail h1 ,.bill-subscription .sub-thum .thumbnail h2{
+        font-size: 30px;
+        line-height: 45px;
+        }
+        .bill-subscription .sub-thum .thumbnail .media {
+            font-size: 18px;}
+            .engagevideo .sub-thum-section .thumbnail h1 ,.engagevideo .sub-thum-section .thumbnail h2{
+                font-size: 35px;}
     .titlebox-mobile{
         margin-bottom: -65px;
     }

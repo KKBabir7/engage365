@@ -1,0 +1,28 @@
+:root{
+    --trasitionTime: all 0.3s ease;
+    --trasitionTimeeight: all 0.8s ease;
+    --whiteColor:#fff;
+    --textFontSize:18px;
+    --fontWightFour:400;
+    --fontWightFive:500;
+    --fontWightSix:600;
+    --fontWightSeven:700;
+    --btngradian:#176FE9;
+    --hoverColor:linear-gradient(141.42deg, #E62F2C 73%, #F37230 18%);
+    --alltextcolor:#1E2050;
+    --pcolor:#30486A;
+    --blackcolor:#000;
+    --reducefifty:15px;
+    --reducefour:4px;
+    --reducetw:12px;
+    --reducethirtyfive:36px;
+    --reducesix:6px;
+    --bodercolorCard:#A8B2C1;
+    --cardpcolor:#30486A;
+    --letsconnectbtn:#074385;
+    --socialcolor:#272B37;
+    --borderworkflow:52px;
+    --workflowbg:linear-gradient(110.42deg, rgba(244, 115, 49, 0.08) 17.76%, rgba(23, 111, 233, 0.08) 46.35%, rgba(43, 136, 173, 0.08) 74.2%);
+   --responNavbarfont:16px;
+
+}

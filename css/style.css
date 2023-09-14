@@ -698,7 +698,7 @@ h1,h2,h3,h4,h5,h6{
         height: 52px;
     }
     .card-section .card .card-title {
-        font-size: 24px;
+        font-size: 26px;
     }
     .card-section .card .card-body p {
         font-size: 18px;
@@ -786,6 +786,10 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 @media only screen and (max-width: 991px) {
+ 
+    .vectorwhte img {
+        top: 52%;
+    }
     .workflow .thumbnail{
         padding-bottom: 60px !important;
     }
@@ -821,7 +825,7 @@ h1,h2,h3,h4,h5,h6{
     }
     .unlock .imgcard img {
        
-        width: 70%;
+        width: 50%;
         margin: 0 auto;
     }
     .unlock .imgcard{
@@ -855,8 +859,8 @@ h1,h2,h3,h4,h5,h6{
     .workflow .thumbnail .media {
         height: auto;
     }
-    .workflow .thumbnail{
-        padding: 10px 18px;
+    .workflow .thumbnail {
+        padding: 10px 40px;
     }
 }
 @media only screen and (max-width: 768px) {
@@ -898,29 +902,14 @@ h1,h2,h3,h4,h5,h6{
 
 
 
+    .unlock .imgcard img {
+        width: 55%;}
 
 
+  
+   
+ 
 
-    .subscription .thumbnail h3{
-        font-size: 40px;
-    line-height: 50px;
-    }
-    .subscription .thumbnail p {
-        font-size: 20px;}
-        .subscription .thumbnail .media ,.engagevideo .sub-thum-section .thumbnail p{
-       font-size: 18px}
-       .bill-subscription .sub-thum .thumbnail h1 {
-        font-size: 30px !important;
-        line-height: 45px !important;
-        }
-        .bill-subscription .sub-thum .thumbnail h2{
-            font-size: 30px !important;
-            line-height: 45px !important;
-            }
-        .bill-subscription .sub-thum .thumbnail .media {
-            font-size: 18px;}
-            .engagevideo .sub-thum-section .thumbnail h1 ,.engagevideo .sub-thum-section .thumbnail h2{
-                font-size: 35px;}
     .titlebox-mobile{
         margin-bottom: -65px;
     }
@@ -942,65 +931,49 @@ h1,h2,h3,h4,h5,h6{
     .hero {
         padding-top: 130px;
     }
+
+
+
+
     .hero-left-content h1{
         font-size: 45px;
         line-height: 70px;
     }
-    .hero-left-content p {
-        font-size: 18px;
-      
-    }
-    /* .card-section .card .icon-img {
-        width: 85px;
-        height: 85px;
-    }
-    .card-section .card .icon-img img {
-        width: 40px;
-        height: 52px;
-    } */
-    .card-section .card .card-title {
-        font-size: 24px;
-    }
-    .card-section .card .card-body p {
+    .hero-left-content p, .card-section .card .card-body p ,.contact-section .thumbnail p,.pricing-section p, .pricing-section i,.transform .thumbnail p ,.unlock .media .flex-grow-1,.subscription .thumbnail .media ,.engagevideo .sub-thum-section .thumbnail p, .bill-subscription .sub-thum .thumbnail .media,.workflow .content-flow p{
         font-size: 18px;
     }
-    .contact-section .thumbnail h1 {
+    .card-section .card .card-title,.bill-subscription .sub-thum .thumbnail h1, .engagevideo .sub-thum-section .thumbnail h1 ,.engagevideo .sub-thum-section .thumbnail h2,  .workflow .content-flow h5 span {
+        font-size: 25px;
+        line-height: 32px !important;
+    }
+    .subscription .thumbnail h3,.workflow .thumbnail h1,.transform .thumbnail h2,.titlebox h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    .contact-section .thumbnail h1,.workflow .content-flow h5 ,  .bill-subscription .sub-thum .thumbnail h2{
         font-size: 30px;
         line-height: 42px;
     }
-    .contact-section .thumbnail p{
+    .btn-letconnect {
+        font-size: 18px;
+        height: 55px;
+        width: 200px;
+    }    
+    .bill-subscription .btnStarted, .engagevideo .sub-thum-section .thumbnail .btnStarted{
+        width: 160px;
+        padding: 8px 0px;
         font-size: 18px;
     }
-    .btn-letconnect {
+    .subscription .thumbnail p {
         font-size: 20px;
-        height: 65px;
-        width: 220px;
-    }
-    .titlebox h1 {
-        font-size: 45px;
-        line-height: 50px;
     }
     .pricing-section h2 {
         font-size: 45px;
         line-height: 40px;
     }
-    .pricing-section p, .pricing-section i {
-        font-size: 18px;
-    }
-    .workflow .content-flow h5{
-        font-size: 30px;
-    }
-    .workflow .content-flow h5 span {
-        font-size: 33px;
-    }
-    .transform .thumbnail h2 {
-        font-size: 36px;
-    line-height: 45px;
-    }
-    .transform .thumbnail p {
-        font-size: 18px;
-        line-height: 28px;
-    }
+
+
+
     .card-section,.contact-section,.unlock,.transform,.bill-subscription,.footer{
         margin-top: 40px;
     }
@@ -1010,10 +983,7 @@ h1,h2,h3,h4,h5,h6{
     .subscription,.workflow{
         padding-top: 60px;
     }
-    .workflow .thumbnail h1 {
-        font-size: 40px;
-        line-height: 48px;
-    }
+
 
 
 
@@ -1033,7 +1003,18 @@ h1,h2,h3,h4,h5,h6{
 
 
 @media only screen and (max-width: 576px) {
-	  .mobilemediaj{
+    .bill-subscription .sub-thum .thumbnail .media {
+        
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .card-section .card .card-body{
+        height: auto;
+    }
+    .workflow .content-flow p {
+        line-height: 25px;
+    }
+    .mobilemediaj{
         margin-top: -20px;
     }
     .bill-subscription .sub-thum .img-sub {
@@ -1052,33 +1033,10 @@ h1,h2,h3,h4,h5,h6{
     .navbar-brand img{
         margin-top: -10px;
     }
-    .subscription .thumbnail h3{
-        font-size: 30px;
-        line-height: 40px;
-    }
-    .subscription .thumbnail p {
-        font-size: 18px;
-    }
     .subscription .main-img-plane{
         margin-bottom: 50px;
     }
-        .subscription .thumbnail .media ,.engagevideo .sub-thum-section .thumbnail p{
-       font-size: 16px
-    }
-       .bill-subscription .sub-thum .thumbnail h1 {
-        font-size: 22px !important;
-        line-height: 30px !important;
-        }
-        .bill-subscription .sub-thum .thumbnail h2{
-            font-size: 22px !important;
-            line-height: 30px !important;
-            }
-        .bill-subscription .sub-thum .thumbnail .media {
-            font-size: 16px;}
-            .engagevideo .sub-thum-section .thumbnail h1 ,.engagevideo .sub-thum-section .thumbnail h2{
-                font-size: 22px;
-                line-height: 29px;
-            }
+
     .titlebox-mobile{
         margin-bottom: -65px;
     }
@@ -1108,40 +1066,8 @@ h1,h2,h3,h4,h5,h6{
     .hero {
         padding-top: 130px;
     }
-    .hero-left-content h1{
-        font-size: 40px;
-        line-height: 50px;
-    }
-    .hero-left-content p {
-        font-size: 18px;
-      
-    }
-    /* .card-section .card .icon-img {
-        width: 85px;
-        height: 85px;
-    }
-    .card-section .card .icon-img img {
-        width: 40px;
-        height: 52px;
-    } */
-    .card-section .card .card-title {
-        font-size: 22px;
-    }
-    .card-section .card .card-body p {
-        font-size: 18px;
-    }
-    .contact-section .thumbnail h1 {
-        font-size: 30px;
-        line-height: 42px;
-    }
-    .contact-section .thumbnail p{
-        font-size: 18px;
-    }
-    .btn-letconnect {
-        font-size: 16px;
-        height: 50px;
-        width: 190px;
-    }
+   
+   
     .footer .social-icon li a {
         padding: 9px 20px;
     }
@@ -1149,44 +1075,9 @@ h1,h2,h3,h4,h5,h6{
        font-size: 20px;
     }
     .titlebox h1 {
-        font-size: 35px;
-        line-height: 40px;
         margin-top: -30px;
     }
-    .unlock .media i {
-        font-size: 18px;
-    }
-    .unlock .media .flex-grow-1 {
-        font-size: 16px;
-        line-height: 25px;
-    }
-    .titlebox p {
-        font-size: 20px;
-    }
-    .pricing-section h2 {
-        font-size: 45px;
-        line-height: 40px;
-    }
-    .pricing-section p, .pricing-section i {
-        font-size: 18px;
-    }
-    .workflow .content-flow h5{
-        font-size: 22px;
-    }
-    .workflow .content-flow h5 span {
-        font-size: 22px;
-    }
-    .workflow .content-flow p {
-        font-size: 16px;
-    }
-    .transform .thumbnail h2 {
-        font-size: 30px;
-    line-height: 40px;
-    }
-    .transform .thumbnail p {
-        font-size: 18px;
-        line-height: 28px;
-    }
+
     .card-section,.contact-section,.unlock,.transform,.bill-subscription,.footer{
         margin-top: 40px;
     }
@@ -1208,6 +1099,55 @@ h1,h2,h3,h4,h5,h6{
         width: 150px;
         height: 150px;
     }
+
+
+
+    .hero-left-content h1{
+        font-size: 38px;
+        line-height: 50px;
+    }
+    .hero-left-content p, .card-section .card .card-body p ,.contact-section .thumbnail p,.pricing-section p, .pricing-section i,.transform .thumbnail p ,.unlock .media .flex-grow-1,.subscription .thumbnail .media ,.engagevideo .sub-thum-section .thumbnail p, .bill-subscription .sub-thum .thumbnail .media,.workflow .content-flow p{
+        font-size: 16px;
+        line-height: 28px;
+    
+    }
+    .card-section .card .card-title,.bill-subscription .sub-thum .thumbnail h1, .engagevideo .sub-thum-section .thumbnail h1 ,.engagevideo .sub-thum-section .thumbnail h2,  .workflow .content-flow h5 span {
+        font-size: 22px;
+        line-height: 28px !important;
+    }
+    .subscription .thumbnail h3,.workflow .thumbnail h1,.transform .thumbnail h2,.titlebox h1{
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .contact-section .thumbnail h1,.workflow .content-flow h5 ,  .bill-subscription .sub-thum .thumbnail h2{
+        font-size: 22px;
+        line-height: 36px;
+    }
+    .btn-letconnect {
+        font-size: 18px;
+        height: 55px;
+        width: 200px;
+    }    
+    .bill-subscription .btnStarted, .engagevideo .sub-thum-section .thumbnail .btnStarted{
+        width: 160px;
+        padding: 8px 0px;
+        font-size: 18px;
+    }
+    .subscription .thumbnail p ,.unlock .media i{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .titlebox p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .pricing-section h2 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+
+
+
 }
 @media only screen and (max-width: 536px) {
     .subscription .thumbnail h3 {
@@ -1225,7 +1165,9 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media only screen and (max-width: 472px) {
-
+    .workflow .thumbnail {
+        padding: 10px 20px;
+    }
     .hero .hero-green-boll {
         bottom: 53px;
     }

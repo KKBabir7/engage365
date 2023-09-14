@@ -101,6 +101,7 @@ h1,h2,h3,h4,h5,h6{
    font-size: 78px;
    line-height: 92px;
    color: var(--alltextcolor);
+   word-wrap: break-word;
 }
 .hero-left-content .ellipsepic{
     position: absolute;
@@ -268,10 +269,6 @@ h1,h2,h3,h4,h5,h6{
     border: none;
     padding: 0px;
     box-shadow: none !important;
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
 }
 .unlock .imgcard img {
     box-shadow: 0px 20px 20px 0px #0000000D;
@@ -279,9 +276,6 @@ h1,h2,h3,h4,h5,h6{
      border-radius: 400px;
      width: 90%;
      margin: 0 auto;
-     left: 0;
-     right: 0;
-     margin-top: 90px !important;
 }
 /*--------------------------------------------------------------
 # subscription section css
@@ -483,13 +477,14 @@ h1,h2,h3,h4,h5,h6{
 # Workflow section css
 --------------------------------------------------------------*/
 .workflow{
-  
+ 
 }
 .workflow .thumbnail{
     background: var(--workflowbg);
    position: relative;
    border-radius: var(--borderworkflow);
    padding: 10px 70px;
+   padding-bottom: 200px !important;
 }
 .workflow .thumbnail h1{
     font-size: 60px;
@@ -746,6 +741,15 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 @media only screen and (max-width: 1199px) {
+    .hero{
+        padding-top: 150px;
+    }
+   .hero .hero-green-boll{
+        bottom: auto;
+        right: auto;
+        right: -68px;
+        top: auto;
+    }
     .hero-left-content h1{
         font-size: 55px;
         line-height: 70px;
@@ -754,9 +758,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media only screen and (max-width: 1199px) {
-    .unlock .imgcard img{
-        margin-top: 380px !important;
-    }
+
     .pricing-section .dolarimg img {
         width: 200px;
         height: 200px;
@@ -781,15 +783,12 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 @media only screen and (max-width: 991px) {
-    .unlock .mobilepic{
-        display: flex;
-        flex-direction: column-reverse;
+    .workflow .thumbnail{
+        padding-bottom: 60px !important;
     }
-    .unlock .imgcard {
-       position: relative;
-    }
-    .unlock .imgcard img{
-        margin-top: 0px !important;
+    .bill-subscription .sub-thum .thumbnail{
+        height: auto;
+        padding-bottom: 105px;
     }
     .hero .epilandfg{
         width: 15%;
@@ -801,6 +800,7 @@ h1,h2,h3,h4,h5,h6{
     }
     .hero {
         background-size: 100%;
+      
         padding-bottom: 100px;
     }
     .hero-vector-mobile{
@@ -810,7 +810,7 @@ h1,h2,h3,h4,h5,h6{
         margin-bottom: -55px;
     }
     .mobile-vector1 {
-        bottom: 450px !important;
+        bottom: 50px !important;
         right: 50px !important;
     }
     .vectorwhte img{
@@ -857,6 +857,11 @@ h1,h2,h3,h4,h5,h6{
     }
 }
 @media only screen and (max-width: 768px) {
+    .hero .hero-green-boll {
+        bottom: 210px;
+        right: auto;
+        right: 11px !important;
+    }
     .hero {
         background-position: 100% 100%;
         padding-bottom: 10px;
@@ -884,10 +889,15 @@ h1,h2,h3,h4,h5,h6{
     .footer{
         padding-bottom: 30px;
     }
-}
 
 
-@media only screen and (max-width: 576px) {
+
+
+
+
+
+
+
     .subscription .thumbnail h3{
         font-size: 40px;
     line-height: 50px;
@@ -895,11 +905,15 @@ h1,h2,h3,h4,h5,h6{
     .subscription .thumbnail p {
         font-size: 20px;}
         .subscription .thumbnail .media ,.engagevideo .sub-thum-section .thumbnail p{
-       font-size: 18px};
-       .bill-subscription .sub-thum .thumbnail h1 ,.bill-subscription .sub-thum .thumbnail h2{
-        font-size: 30px;
-        line-height: 45px;
+       font-size: 18px}
+       .bill-subscription .sub-thum .thumbnail h1 {
+        font-size: 30px !important;
+        line-height: 45px !important;
         }
+        .bill-subscription .sub-thum .thumbnail h2{
+            font-size: 30px !important;
+            line-height: 45px !important;
+            }
         .bill-subscription .sub-thum .thumbnail .media {
             font-size: 18px;}
             .engagevideo .sub-thum-section .thumbnail h1 ,.engagevideo .sub-thum-section .thumbnail h2{
@@ -923,7 +937,7 @@ h1,h2,h3,h4,h5,h6{
         background-size: 100%;
     }
     .hero {
-        padding-top: 220px;
+        padding-top: 130px;
     }
     .hero-left-content h1{
         font-size: 45px;
@@ -984,8 +998,11 @@ h1,h2,h3,h4,h5,h6{
         font-size: 18px;
         line-height: 28px;
     }
-    .card-section,.contact-section,.unlock,.transform,.bill-subscription,.engagevideo,.footer{
-        margin-top: 60px;
+    .card-section,.contact-section,.unlock,.transform,.bill-subscription,.footer{
+        margin-top: 40px;
+    }
+    .engagevideo{
+        margin-top: 0px !important;
     }
     .subscription,.workflow{
         padding-top: 60px;
@@ -993,6 +1010,197 @@ h1,h2,h3,h4,h5,h6{
     .workflow .thumbnail h1 {
         font-size: 40px;
         line-height: 48px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (max-width: 576px) {
+    .bill-subscription .sub-thum .img-sub {
+        width: 80px;
+        height: 80px;}
+        .bill-subscription .sub-thum .img-sub img {
+            width: 40px;
+            height: 40px;
+        }
+        .bill-subscription .btnStarted, .engagevideo .sub-thum-section .thumbnail .btnStarted {
+            font-size: 15px;
+            padding: 8px 0px;
+            bottom: 40px;
+            width: 150px;
+        }
+    .navbar-brand img{
+        margin-top: -10px;
+    }
+    .subscription .thumbnail h3{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .subscription .thumbnail p {
+        font-size: 18px;
+    }
+    .subscription .main-img-plane{
+        margin-bottom: 50px;
+    }
+        .subscription .thumbnail .media ,.engagevideo .sub-thum-section .thumbnail p{
+       font-size: 16px
+    }
+       .bill-subscription .sub-thum .thumbnail h1 {
+        font-size: 22px !important;
+        line-height: 30px !important;
+        }
+        .bill-subscription .sub-thum .thumbnail h2{
+            font-size: 22px !important;
+            line-height: 30px !important;
+            }
+        .bill-subscription .sub-thum .thumbnail .media {
+            font-size: 16px;}
+            .engagevideo .sub-thum-section .thumbnail h1 ,.engagevideo .sub-thum-section .thumbnail h2{
+                font-size: 22px;
+                line-height: 29px;
+            }
+    .titlebox-mobile{
+        margin-bottom: -65px;
+    }
+    .pricing-section{
+     position: relative;
+    }
+    .vecto-mobile{
+        margin-top: 30px !important;
+        position: absolute;
+        z-index: 1;
+        right: -40px;
+       
+    }
+    .card-section .card .icon-img {
+        width: 70px;
+        height: 70px;
+    }
+    .card-section .card .icon-img img {
+        width: 30px;
+        height: 30px;
+    }
+    .hero {
+        background-position: 100% 100%;
+        padding-bottom: 85px;
+        background-size: 100%;
+    }
+    .hero {
+        padding-top: 130px;
+    }
+    .hero-left-content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .hero-left-content p {
+        font-size: 18px;
+      
+    }
+    /* .card-section .card .icon-img {
+        width: 85px;
+        height: 85px;
+    }
+    .card-section .card .icon-img img {
+        width: 40px;
+        height: 52px;
+    } */
+    .card-section .card .card-title {
+        font-size: 22px;
+    }
+    .card-section .card .card-body p {
+        font-size: 18px;
+    }
+    .contact-section .thumbnail h1 {
+        font-size: 30px;
+        line-height: 42px;
+    }
+    .contact-section .thumbnail p{
+        font-size: 18px;
+    }
+    .btn-letconnect {
+        font-size: 16px;
+        height: 50px;
+        width: 190px;
+    }
+    .footer .social-icon li a {
+        padding: 9px 20px;
+    }
+    .footer .social-icon li a i{
+       font-size: 20px;
+    }
+    .titlebox h1 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-top: -30px;
+    }
+    .unlock .media i {
+        font-size: 18px;
+    }
+    .unlock .media .flex-grow-1 {
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .titlebox p {
+        font-size: 20px;
+    }
+    .pricing-section h2 {
+        font-size: 45px;
+        line-height: 40px;
+    }
+    .pricing-section p, .pricing-section i {
+        font-size: 18px;
+    }
+    .workflow .content-flow h5{
+        font-size: 22px;
+    }
+    .workflow .content-flow h5 span {
+        font-size: 22px;
+    }
+    .workflow .content-flow p {
+        font-size: 16px;
+    }
+    .transform .thumbnail h2 {
+        font-size: 30px;
+    line-height: 40px;
+    }
+    .transform .thumbnail p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .card-section,.contact-section,.unlock,.transform,.bill-subscription,.footer{
+        margin-top: 40px;
+    }
+    .engagevideo{
+        margin-top: 0px !important;
+    }
+  
+    .subscription,.workflow{
+        padding-top: 60px;
+    }
+    .workflow .thumbnail h1 {
+        font-size: 30px;
+        line-height: 5px;
+    }
+    .workflow .flowimg img {
+        width: 50%;
+    }
+    .workflow .flowimg {
+        width: 150px;
+        height: 150px;
     }
 }
 @media only screen and (max-width: 536px) {
@@ -1011,12 +1219,17 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media only screen and (max-width: 472px) {
-    .bill-subscription .sub-thum .thumbnail{
-        height: 845px;
+
+    .hero .hero-green-boll {
+        bottom: 53px;
     }
+    .hero .hero-green-boll img{
+        width: 30px;
+    }
+
     .mobile-vector1 {
-        bottom: 40px !important;
-        right: 50px !important;
+        bottom: 20px !important;
+        right: 20px !important;
     }
     .pricing-section .thumbnail{
         padding-left: 25px !important;

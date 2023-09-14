@@ -58,11 +58,14 @@ h1,h2,h3,h4,h5,h6{
 /*--------------------------------------------------------------
 # All section gapping
 --------------------------------------------------------------*/
-.card-section,.contact-section,.unlock,.transform,.bill-subscription,.engagevideo,.footer{
+.card-section,.contact-section,.unlock,.transform,.bill-subscription,.footer{
     margin-top: 120px;
 }
+.engagevideo{
+    margin-top: 80px;
+}
 .subscription,.workflow{
-    padding-top: 120px;
+    padding-top: 130px;
 }
 /*--------------------------------------------------------------
 # Hero css

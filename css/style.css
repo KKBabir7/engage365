@@ -1033,6 +1033,9 @@ h1,h2,h3,h4,h5,h6{
 
 
 @media only screen and (max-width: 576px) {
+	  .mobilemediaj{
+        margin-top: -20px;
+    }
     .bill-subscription .sub-thum .img-sub {
         width: 80px;
         height: 80px;}
